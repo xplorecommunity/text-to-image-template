@@ -8,8 +8,7 @@ export default {
     const steps = parseInt(url.searchParams.get("steps") || "4");
 
     const inputs = {
-      prompt,
-      steps: Math.min(Math.max(steps, 1), 8) // Clamp steps between 1 and 8
+      prompt
     };
     
     // Best model for the free tier due to its low neuron cost
