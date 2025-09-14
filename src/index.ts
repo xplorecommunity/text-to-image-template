@@ -12,9 +12,6 @@ export default {
       prompt: prompt,
       width: 1024,
       height: 1024,
-      steps: 25,
-      guidance: 7,
-      negative_prompt: "blurry, low quality, cartoon, signature"
     };
 
     // Run the updated image generation model
